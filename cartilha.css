@@ -1,0 +1,134 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+/* BODY */
+body {
+ font-family: Arial, sans-serif;
+ background-color: rgb(5, 2, 29);
+}
+
+
+/* HEADER */
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px 40px;
+ font-weight: bold;
+ background-color: rgb(103, 17, 135);
+ color: white;
+}
+
+
+header h1 {
+ font-size: 24px;
+}
+
+
+/* MAIN */
+main {
+ font-weight: bold;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 30px;
+ padding: 60px 40px;
+ background-color:  rgb(5, 2, 29);
+}
+
+
+/* TEXTO */
+.text {
+ max-width: 500px;
+}
+
+
+.text h2 {
+ font-size: 32px;
+ margin-bottom: 20px;
+ color: rgb(183, 0, 255);
+}
+
+
+.text p {
+ font-size: 18px;
+ color: rgb(183, 0, 255);
+}
+
+
+/* IMAGEM */
+.image img {
+ width: auto;
+ height: 350px;
+ border-radius: 20px;
+}
+/* SECTION TECNOLOGIAS */
+.tech {
+ padding: 60px 40px;
+ text-align: center;
+ background-color:  rgb(5, 2, 29);
+}
+
+
+.tech h2 {
+ font-size: 28px;
+ margin-bottom: 40px;
+ color: rgb(183, 0, 255);
+}
+
+
+.tech-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+ gap: 30px;
+}
+
+
+.tech-card {
+ background:  rgb(58, 2, 67);
+ padding: 20px;
+ border-radius: 16px;
+ transition: 0.3s;
+ border: solid gray;
+}
+
+
+.tech-card img {
+ width: 60px;
+ margin-bottom: 10px;
+}
+
+
+.tech-card p {
+ font-size: 16px;
+ font-weight: bold;
+ color:rgb(183, 0, 255);
+}
+
+
+.tech-card:hover {
+ transform: translateY(-5px);
+ background: white;
+ color: red;
+}
+
+
+.tech p:hover {
+ color: black;
+}
+
+
+/* FOOTER */
+footer {
+ background-color: black;
+ color: white;
+ text-align: center;
+ padding: 20px;
+ margin-top: 40px;
+}
+
+
